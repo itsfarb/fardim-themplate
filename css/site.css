@@ -1,0 +1,732 @@
+@font-face {
+	font-family: yekanBold;
+	src: url(../fonts/iranyekanwebboldfanum.ttf) format('truetype');
+  }
+@font-face {
+	font-family: yekanReg;
+	src: url(../fonts/iranyekanwebregularfanum.ttf) format('truetype');
+  }
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	overflow-x: hidden !important;
+} 
+body{
+	direction: rtl;
+	background-color: #f5f5f5;
+	/* background-color: red; */
+}
+.menu{
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.menu-col{
+	text-align: center;
+}
+
+i{
+	color: #616161;
+}
+
+@media (max-width: 768px) {
+	.col-md-4{
+		margin-bottom: 20px;
+	}
+	.col-md-4:first-child{
+		display: none;
+	}
+	.responsive-menu-icon{
+		display: inline !important;
+	}
+
+	.slider-banner{
+		margin-bottom: 20px;
+	}
+
+	.navbar-left-side{
+		text-align: center !important;
+	}
+ }
+
+.slider-banner img{
+	border-radius: 20px;
+}
+
+.image-slider{
+	padding-top: 45px;
+}
+.banner img{
+	border-radius: 20px;
+}
+
+.top-product-item{
+	width: 100%;
+	height: auto;
+	border: 1px solid #cccccc;
+	margin-top: 20px;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 50px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
+
+.card-title{
+	display: inline;
+	font-weight: 600;
+	color: #000;
+	font-family: "yekanBold";
+	font-size: 14px;
+}
+.card-price{
+	float: left;
+	color: #7CB342;
+	font-weight: 600;
+	font-family: "yekanReg";
+	font-size: 12px;
+	margin-top: 5px;
+}
+.card-author img{
+	width: 30px;
+}
+
+.card-author span{
+	margin-right: 5px;
+	font-family: "yekanReg";
+	font-size: 12px;
+}
+
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+  }
+
+  @media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+	  font-size: 3.5rem;
+	}
+  }
+
+
+  .top-product-article{
+	  margin-bottom: 30px;
+  }
+  .top-product-title h4{
+	font-family: "yekanBold";
+	display: inline-block;
+	margin-left: 20px;
+  }
+  .top-product-title span a{
+	  padding: 4px 20px;
+	  color: #848484;
+	  font-size: 12px;
+	  text-decoration: none;
+	  border-radius: 10px;
+	  font-family: "yekanReg";
+	}
+	.top-product-title a:hover{
+	  border: 1px solid #016bc1;
+	  color: #016bc1;
+  }
+  .show-more{
+	text-align: end;
+  }
+  .show-more a{
+	  text-decoration: none;
+	  color: #848484;
+	  font-size: 14px;
+	  font-family: "yekanBold";
+  }
+
+  .category-album{
+	  height: auto;
+	  width: 100%;
+  }
+
+  .category-album{
+	  text-align: center;
+  }
+  .category-album i{
+	  font-size: 50px;
+	  color: #9c9c9c;
+	  background-color: #f5f5f5;
+	  border-radius: 3px;
+	  width: 80px;
+	  height: 80px;
+	  text-align: center;
+	  margin-bottom: 10px;
+	  line-height: 80px;
+	  margin-left: 12px;
+  }
+
+
+.pere-order{
+	width: 87%;
+	background-color: #016bc1;
+	border: 1px solid #016bc1;
+	border-radius: 20px;
+	padding-top: 40px ;
+	padding-bottom: 40px ;
+}
+.pere-order-right{
+	text-align: center;
+}
+.pere-order-right i{
+	color: #016bc1;
+	padding: 40px;
+	border-radius: 100%;
+	background-color: #fff;
+	font-size: 50px;
+}
+.pere-order-right h5{
+	font-family: "yekanBold";
+	color: #fff;
+	margin-top: 20px;
+}
+.pere-order-right p{
+	color: #fff;
+	font-family: "yekanReg";
+	margin-top: 15px;
+	font-size: 15px;
+}
+.pere-order-right a{
+	border: 1px solid #fff;
+	width: 120px;
+	height: 30px;
+	color: #fff;
+	font-family: yekanReg;
+	font-size: 13px;
+}
+.holder-tools-product-colum{
+	padding-top: 16px;
+}
+
+@media (max-width: 1199px){
+	.likeAndSave{
+		display: none !important
+		;
+	}
+	.card-price{
+		display: contents;
+		margin: auto;
+	}
+	.card{
+		text-align: center;
+	}
+}
+@media (max-width: 575px){
+	.likeAndSave{
+		display: inline !important;
+	}
+	.card-price{
+		text-align: left;
+		display: block;
+	}
+	.card{
+		text-align: right;
+	}
+	.card-title{
+		display: inline;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px)  {
+	.card-title{
+		display: block;
+	}
+	
+}
+
+@media (max-width: 991px){
+	.col:last-child{
+		display: none;
+	}
+
+
+}
+
+@media (max-width:767px){
+	.col:last-child{
+		display: block;
+	}
+	.col{
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width:767px){
+	.top-product-title{
+		text-align: center;
+	}
+	.top-product-title h4{
+		display: block;
+	}
+}
+
+@media (max-width:767px){
+	.pere-order-left .col{
+		margin-top: 20px;
+		padding: 0px 50px;
+	}
+}
+
+.top-artist{
+	height: auto;
+	background-color: #016bc1;
+	border-radius: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+}
+.top-artist .top-artist-right{
+	text-align: center;
+}
+
+.top-artist-right i{
+	color: #016bc1;
+	padding: 40px;
+	border-radius: 100%;
+	background-color: #fff;
+	font-size: 50px;
+}
+.top-artist-right h5{
+	font-family: "yekanBold";
+	color: #fff;
+	margin-top: 20px;
+}
+.top-artist-right p{
+	color: #fff;
+	font-family: "yekanReg";
+	margin-top: 15px;
+	font-size: 15px;
+}
+.top-artist-right a{
+	border: 1px solid #fff;
+	width: 120px;
+	height: 30px;
+	color: #fff;
+	font-family: yekanReg;
+	font-size: 13px;
+}
+.top-artist-left{
+	margin-top: 45px;
+}
+.top-artist-left .artist{
+	width: 20%;
+	text-align: center;
+	float: right;
+}
+.top-artist-left .artist a img{
+	width: 150px;
+	border-radius: 100%;
+	margin-bottom: 18px;
+}
+.top-artist-left .artist .like i{
+	color: #fff;	
+	font-size: 18px;
+}
+.top-artist-left .artist .like span{
+	color: #fff;
+}
+
+.top-user-search{
+	height: auto;
+	margin-top: 50px;
+	text-align: center;
+	padding: 40px;
+}
+.top-user-search h5{
+	text-align: center;
+	color: #000;
+	font-family: "yekanBold";
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+.top-user-search .search-item a{
+	color: #848484;
+	border: 1px solid #848484;
+	padding: 10px 40px;
+	border-radius: 5px;
+	margin-left: 13px;
+	font-size: 20px;
+	font-family: "yekanReg";
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: inline-block;
+	transition: all 0.4S;
+}
+.top-user-search .search-item a:hover{
+	color: #fff;
+	background-color: #016bc1;
+	border-color: #016bc1;
+}
+.background-offers{
+	width: 100%;
+	padding: 40px 0;
+}
+
+.background-offers img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+@media (max-width: 767px){
+	.background-offers img{
+		margin-bottom: 20px;
+	}
+}
+
+footer{
+	height: auto;
+	background-color: #016bc1;
+	width: 100%;
+	padding: 40px 0;
+}
+footer .about h3{
+	font-family: "yekanBold";
+	color: #fff;
+}
+footer .about p{
+	text-align: justify;
+	color: #fff;
+	font-family: "yekanReg";
+	line-height: 30px;
+}
+
+footer .footer-menu ul li{
+	color: #fff;
+	font-family: "yekanReg";
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+
+.footer-logo span{
+	font-family: "yekanReg";
+	color: #fff;
+}
+
+
+
+.footer-logo .logos img{
+	width: 116px;
+	height: 116px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+.footer-logo .social-media i{
+	font-size: 50px;
+	color: #fff;
+	
+	margin-left: 10px;
+}
+
+.footer-logo .social-media{
+	text-align: center;
+}
+.copyright{
+	color: #fff;
+	font-family: "yekanReg";
+	text-align: left !important;
+	float: left;
+}
+
+@media (max-width: 1199px){
+	.top-artist-left .artist:last-child{
+		display: none !important;
+	}
+	.top-artist-left .artist{
+		width: 25% !important;
+	}
+}
+@media (max-width: 991px){
+	.top-artist-left .artist{
+		width: 33% !important;
+	}
+	.top-artist-left .artist:last-child{
+		display: block !important;
+	}
+
+
+	.footer-logo .logos{
+		text-align: center;
+	}
+
+	footer .about{
+		border-bottom: 1px solid #fff !important;
+	}
+	footer .footer-menu{
+		padding-top: 25px !important;
+		border-bottom: 1px solid #fff !important;
+	}
+	footer .footer-logo{
+		padding-top: 25px;
+	}
+
+}
+
+@media (max-width: 767px){
+	.top-artist-right a{
+		margin-bottom: 30px;
+	}
+}
+
+
+@media (max-width: 500px){
+	.top-artist-left .artist{
+		width: 50% !important;
+	}
+}
+
+
+
+/*  */
+
+
+.navbar-right-side{
+	text-align: right;
+}
+.navbar-left-side{
+	text-align: left;
+}
+
+
+
+/* user dropdown */
+
+
+.dropdown_custom a {
+    cursor: pointer;
+    font-size: 14px !important;
+    color: #6f6f6f !important;
+}
+
+.dropdown-menu_custom {
+    top: 10px !important;
+    left: -40px !important;
+}
+
+.dropdown-menu_custom:before {
+    height: 4px;
+    background-color: #016bc1;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+}
+
+.dropdown-menu_custom:before, .dropdown-menu_custom:after {
+    position: absolute;
+    content: "";
+}
+
+.dropdown-menu_custom:after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 8px 8px;
+    border-color: transparent transparent #016bc1;
+    bottom: 100%;
+    margin-bottom: 2px;
+    left: 70px;
+}
+
+.login_box a {
+    color: #fff !important;
+	font-family: "nooraReg" !important;
+    background-color: #016bc1;
+}
+
+.dropdown-item-custom:hover {
+    color: #fff !important;
+    background-color: #035497;
+}
+
+.dropdown .register {
+    font-size: 12px;
+	font-family: "nooraReg" !important;
+}
+
+.register a {
+    color: #008ec9 !important;
+	font-family: "nooraReg" !important;
+    border-bottom: 1px dashed #008ec9;
+
+}
+
+.dropdown .profile_link {
+    font-size: 18px;
+    vertical-align: -5px;
+
+}
+
+.dropdown .dropdown-item_custom {
+    color: #6f6f6f !important;
+    font-size: 14px;
+
+}
+
+.dropdown button {
+    cursor: pointer;
+}
+
+.dropdown-toggle::after {
+	display: none !important;
+}
+.dropdown{
+	display: inline-block !important;
+	font-family: "nooraReg" !important;
+	
+}
+
+.dropdown-menu_custom:after {
+	display: none !important;
+}
+
+.dropdown a{
+	font-family: "yekanReg" !important;
+}
+
+
+.dropdown p{
+	font-family: "yekanReg" !important;
+}
+
+
+
+
+
+
+
+@media(max-width:767px){
+	.show-more a{
+		display: block;
+		margin: auto;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.top-product-title h4{
+		margin: auto;
+		text-align: center;
+	}
+
+	.holder-tools-product-colum{
+		display: block !important;
+	}
+	.card-body{
+		text-align: center !important	;
+	}
+	.card-body .card-price{
+		display: contents !important;
+	}
+	.card-body .card-title{
+		display: block;
+	}
+	
+	.dropdown i{
+		margin: 0 !important;
+	}
+}
+
+@media(max-width:575px){
+	.top-artist{
+		border-radius: 0px !important;
+	}
+	.top-artist .artist{
+		margin-bottom: 30px;
+	}
+	.background-offers img{
+		border-radius: 0px !important;
+	}
+}
+
+@media(max-width:339px){
+	.top-artist .artist{
+		display: block;
+		width: 100% !important;
+	}
+}
+
+
+
+.searchbar{
+	display: inline-block;
+}
+
+.togglesearch{
+	background: #E8E8E4;
+	position: absolute;
+	top: 34px;
+	padding: 10px;
+	width: 350px;
+	height: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	display: none;
+  }
+  
+  /* .togglesearch:before{
+	content: "";
+	position: absolute;
+	top: -30px;
+	right: 13px;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid #035497;
+  } */
+  
+  .togglesearch input[type="text"]{
+	width: 200px;
+	padding: 5px 10px;
+	margin-left: 23px;
+	border-radius: 5px;
+	border: 1px solid #035497;
+	font-family: "yekanReg";
+	font-size: 13px;
+	outline: none;
+  }
+  
+  .togglesearch input[type="button"]{
+	width: 80px;
+	padding: 5px 0;
+	background: #016bc1;
+	border-radius: 5px;
+	font-size: 12px;
+	font-family: "yekanReg";
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+  }
+
+  @media (max-width:768px){
+	  .searchbar{
+		  display:  inline !important;
+
+	  }
+	  .searchbar .togglesearch{
+		  position: static !important;
+		  margin: auto;
+	  }
+  }
+
+  @media (max-width: 767px){
+	  .top-product-title a{
+		  display: block;
+		  margin-top: 10px !important;
+		  background-color: #016bc1;
+		  color: #fff !important;
+		  width: 50%;
+		  margin: auto;
+	  }
+  }
